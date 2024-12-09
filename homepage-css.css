@@ -1,7 +1,7 @@
 body{
 	
 
-	background-color: #121744;
+	background-color:#0E0E2C
 	
 	
 }
@@ -86,14 +86,17 @@ ul{
 .anime{
 	
 	background-color: black;
-	width:18%;
+	width:auto;
 	padding-left: 25px;
 	padding-bottom: 10px;
-	
+	padding-top: 10px;
+	padding-right: 0px;
 	
 	
 	
 }
+
+
 
 .anime_category{
 	
@@ -144,5 +147,31 @@ a{
 	color: gray;
 }
 
+.container-3{
+	 padding-top: 100px;
+}
+	
+
+.container-4{
+	
+	display: grid;
+	grid-template-columns: 650px 1fr;
+	grid-gap:30px;
+	
+}
+
+.anime-winners-are{
+	font-size: 400%;
+}
+	
+.who-are-the-winners{
+	
+	background-color: black;
+	width:auto;
+	padding-left: 25px;
+	padding-bottom: 10px;
 	
 	
+}
+
+
